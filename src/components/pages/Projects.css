@@ -1,0 +1,48 @@
+.projects-container{
+   padding: 40px;
+}
+.project{
+    padding: 30px;
+}
+.slide {
+    width: 200px; /* Adjust the width of the slides */ /* Adjust the height of the slides */
+  }
+  
+  img {
+    width: 100%; /* Make sure the image fills the slide container */
+    height: auto;
+  }
+
+  ul{
+    padding-top: 15px;
+  }
+
+.project2-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.project2-images{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.imageStyle{
+  width: 264px;
+  height: 264px;
+}
+
+.label{
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width:480px){
+  .project2-images{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+}
